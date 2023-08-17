@@ -12,6 +12,8 @@ Before running the code, make sure you have the following dependencies installed
 
 You also need access to a PostgreSQL database with the appropriate credentials.
 
+API: http://txdot-its-c2c.txdot.gov/XmlDataPortal_AUS/api/c2c?networks=AUS&dataTypes=incidentData
+
 ## Installation
 
 1. Clone the repository:
