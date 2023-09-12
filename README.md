@@ -25,12 +25,7 @@ git clone http://yk9253@gitlab.utnmc.org/yk9253/c2c_incidents.git
 Make sure to configure the database connection details before running the code. Open the script file (`main.py`) and update the following variables:
 
 ```python
-DB_HOST = 'nmc-compute2.ctr.utexas.edu'
-DB_PORT = 5434
-DB_NAME = 'perm_aus'
-DB_USER = 'nmc'
-DB_PASSWORD = 'nmc0864Q'
-
+DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD 
 Update the above variables with your actual database connection details.
 
 Usage
