@@ -15,11 +15,11 @@ from sqlalchemy.ext.declarative import declarative_base
 XML_URL = "http://txdot-its-c2c.txdot.gov/XmlDataPortal_AUS/api/c2c?networks=AUS&dataTypes=incidentData"
 
 #Define the database connection
-DB_HOST = 'nmc-compute2.ctr.utexas.edu'
-DB_PORT = 5434
-DB_NAME = 'perm_aus'
-DB_USER = 'nmc'
-DB_PASSWORD = 'nmc0864Q'
+DB_HOST = 'localhost'
+DB_PORT = 5432
+DB_NAME = 'postgres'
+DB_USER = 'postgres'
+DB_PASSWORD = '1612'
 
 UPDATE_TIME = 30  # seconds
 
